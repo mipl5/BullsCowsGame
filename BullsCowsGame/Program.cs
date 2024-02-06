@@ -15,7 +15,7 @@ namespace BullsCowsGame
             int cowsInNumberTry = 0; // will be changed soon.
             int from = int.Parse(Console.ReadLine());
             int to = int.Parse(Console.ReadLine());
-            int numberToGuess = 4956; //rnd.Next(from, to);
+            int numberToGuess = rnd.Next(from, to); /*4,956*/
             Console.WriteLine(numberToGuess);
             int tryCounter = 0;
             while (bullsInNumberTry != 4)
